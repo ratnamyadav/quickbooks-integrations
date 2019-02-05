@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Payer first name:</strong>
+  <%= @payment.payer_first_name %>
+</p>
+
+<p>
+  <strong>Paid at:</strong>
+  <%= @payment.paid_at %>
+</p>
+
+<p>
+  <strong>Reason:</strong>
+  <%= @payment.reason %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @payment.amount %>
+</p>
+
+<p>
+  <strong>Method:</strong>
+  <%= @payment.method %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @payment.status %>
+</p>
+
+<p>
+  <strong>Check number:</strong>
+  <%= @payment.check_number %>
+</p>
+
+<p>
+  <strong>Payable:</strong>
+  <%= @payment.payable_id %>
+</p>
+
+<p>
+  <strong>Payable type:</strong>
+  <%= @payment.payable_type %>
+</p>
+
+<%= link_to 'Edit', edit_payment_path(@payment) %> |
+<%= link_to 'Back', payments_path %>

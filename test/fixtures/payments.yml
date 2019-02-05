@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  payer_first_name: MyString
+  paid_at: 2019-02-04 23:32:27
+  reason: MyString
+  amount: 1.5
+  method: MyString
+  status: MyString
+  check_number: MyString
+  payable_id: 1
+  payable_type: MyString
+
+two:
+  payer_first_name: MyString
+  paid_at: 2019-02-04 23:32:27
+  reason: MyString
+  amount: 1.5
+  method: MyString
+  status: MyString
+  check_number: MyString
+  payable_id: 1
+  payable_type: MyString

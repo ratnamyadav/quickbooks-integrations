@@ -1,0 +1,15 @@
+iif.trns do
+    payments.each do |payment|
+        row do
+            trnsid payment.id
+            date payment.paid_at
+            name payment.payer_first_name
+            invtitle payment.reason
+            amount payment.amount
+            paymeth payment.method
+            paid payment.status
+            memo payment.is_check? ? "Check No: #{payment.check_number}" : ""
+            accnt payment.payable_type
+        end
+    end
+end
